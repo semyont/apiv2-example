@@ -13,13 +13,12 @@ from requests.auth import HTTPBasicAuth
 # account details
 USERNAME = 'YOUR USERNAME HERE'
 PASSWORD = 'YOUR PASSWORD HERE'
-USERNAME = 'nicka'
-PASSWORD = 'watttime1'
 EMAIL = 'some_email@gmail.com'
 ORG = 'some org name'
 
 # request details
 BA = 'AESO'  # identify grid region
+
 # starttime and endtime are optional, if ommited will return the latest value
 START = '2020-03-01T00:00:00-0000'  # UTC offset of 0 (PDT is -7, PST -8)
 END = '2020-03-01T00:45:00-0000'
