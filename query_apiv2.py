@@ -17,7 +17,7 @@ EMAIL = 'some_email@gmail.com'
 ORG = 'some org name'
 
 # request details
-BA = 'AESO'  # identify grid region
+BA = 'CAISO_ZP26'  # identify grid region
 
 # starttime and endtime are optional, if ommited will return the latest value
 START = '2020-03-01T00:00:00-0000'  # UTC offset of 0 (PDT is -7, PST -8)
@@ -63,7 +63,7 @@ def data(token, ba, starttime, endtime):
 
 
 def index(token, ba):
-    url = 'https://api2.watttime.org/data'
+    url = 'https://api2.watttime.org/index'
     headers = {'Authorization': 'Bearer {}'.format(token)}
     params = {'ba': ba}
 
